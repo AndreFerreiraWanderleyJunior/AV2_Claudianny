@@ -1,0 +1,43 @@
+.home-container {
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  background-color: #2563eb; /* azul similar ao blue-600 */
+  color: white;
+  padding: 16px 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 32px 24px 8px;
+}
+
+.descricao {
+  margin: 0 24px 24px;
+  color: #333;
+}
+
+.botoes {
+  margin: 0 24px;
+}
+
+.botoes button {
+  margin-right: 16px;
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.botoes button:hover {
+  background-color: #1e40af;
+}
